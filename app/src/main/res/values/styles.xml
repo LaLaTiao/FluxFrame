@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyAppTheme" parent="AppTheme">
+        <!--<item name="android:windowAnimationStyle">@style/AnimationActivity</item>-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/common_bg_grey</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/common_bg_black</item>
+    </style>
+
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+
+        <!-- 背景颜色及透明程度 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- Dialog 是否有边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 窗体是否有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 设置窗体内容背景 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 背景是否变暗 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 是否显示壁纸 -->
+        <item name="android:windowShowWallpaper">false</item>
+        <!-- 窗体是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>
